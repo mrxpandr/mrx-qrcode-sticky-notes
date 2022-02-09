@@ -74,3 +74,14 @@
 .swipe {
     position: absolute;
 }
+
+.card_container > .hint > p {
+    position: relative;
+    bottom: -300px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    font-family: cursive;
+    text-align: center;
+    text-shadow: 2px 4px rgb(0 0 0 / 30%);
+}

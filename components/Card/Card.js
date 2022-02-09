@@ -47,6 +47,10 @@ const Card = () => {
                         </TinderCard>
                     ))
                 }
+
+                <div className={styles.hint}>
+                    <p>Swipe a card</p>
+                </div>
             </div>
       </div>
   )
