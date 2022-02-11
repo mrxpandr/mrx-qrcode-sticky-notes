@@ -1,0 +1,74 @@
+.countdown__bg {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    display: block;
+    background-image: url("https://media.istockphoto.com/vectors/heart-halftone-valentines-day-background-hearts-on-colorful-vector-vector-id1285091168?b=1&k=20&m=1285091168&s=170667a&w=0&h=JC71AHajvrPsfN9iVUEdeWsm3mU6ERe2Y50TQuTIObM=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.countdown__title__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown__title {
+    display: flex;
+    justify-content: center;
+    font-size: 45pt;
+    font-weight: bold;
+    color: rgb(155, 48, 125);
+    margin-top: 20px;
+}
+
+.countdown__caption {
+    display: flex;
+    justify-content: center;
+    font-size: 15pt;
+    color: rgb(215, 215, 215);
+    margin-top: 10px;
+}
+
+.countdown__name {
+    display: flex;
+    justify-content: center;
+    font-size: 10pt;
+    border: 1px solid #fff;
+    color: rgb(215, 215, 215);
+    margin-top: 10px;
+    width: 50px;
+}
+
+.countdown__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.countdown__timer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 73pt;
+    color: rgb(255, 255, 255);
+}
+
+.countdown__days, .countdown__hours, .countdown__minutes {
+    border-right: 1px solid #fff;
+    padding: 20px;
+}
+
+.countdown__days, .countdown__hours, .countdown__minutes, .countdown__seconds {
+    padding: 20px;
+}
+
+.days, .hours, .minutes, .seconds {
+    font-size: 13pt;
+    text-align: center;
+}
