@@ -1,18 +1,18 @@
 .background_mage {
-    position: fixed;
+    /* position: fixed;
     left: 0;
     right: 0;
     z-index: -1;
-    display: block;
-    background-image: url("https://www.itl.cat/pngfile/big/283-2838401_happy-valentines-day-heart-glass-3d-reflection-large.jpg");
-    background-repeat: no-repeat;
+    display: block; */
+    /* background-image: url("https://www.itl.cat/pngfile/big/283-2838401_happy-valentines-day-heart-glass-3d-reflection-large.jpg"); */
+    /* background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    -webkit-filter: blur(10px);
-    -moz-filter: blur(10px);
-    -o-filter: blur(10px);
-    -ms-filter: blur(10px);
-    filter: blur(10px);
+    height: 100vh; */
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
 }
 
 .card_container {

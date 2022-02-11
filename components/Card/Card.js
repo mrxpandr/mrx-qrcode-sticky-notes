@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { useState } from "react" 
 import TinderCard from 'react-tinder-card'
 import styles from '../../styles/Card.module.css'
@@ -23,7 +24,10 @@ const Card = () => {
     
   return (
       <div>
-          <div className={styles.background_mage}></div>
+          {/* <div className={styles.background_mage}></div> */}
+          <div style={{ position: "fixed", width: "100%", height: "100%", zIndex: -1}} className={styles.background_mage} >
+            <Image src="/images/countdown_bg.jpg" alt="card" layout="fill" objectFit="cover" />
+          </div>
 
             <div className={styles.card_container}>
                 {
