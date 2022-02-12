@@ -72,3 +72,34 @@
     font-size: 13pt;
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .countdown__title {
+        font-size: 30pt;
+    }
+
+    .countdown__caption {
+        font-size: 10pt;
+    }
+
+    .countdown__name {
+        font-size: 8pt;
+        width: 30px;
+    }
+
+    .countdown__timer {
+        font-size: 45pt;
+    }
+
+    .countdown__days, .countdown__hours, .countdown__minutes {
+        padding: 10px;
+    }
+
+    .countdown__days, .countdown__hours, .countdown__minutes, .countdown__seconds {
+        padding: 10px;
+    }
+
+    .days, .hours, .minutes, .seconds {
+        font-size: 8pt;
+    }
+}

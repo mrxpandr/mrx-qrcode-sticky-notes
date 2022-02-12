@@ -32,7 +32,7 @@
     border-radius: 20px;
     background-size: cover;
     background-position: center;
-    box-shadow: 0px 18px 53px 0px rgba(240, 240, 240, 0.3);
+    box-shadow: 0px 0px 5px 0px rgba(240, 240, 240, 0.3);
     background-repeat: no-repeat;
 }
 
@@ -42,7 +42,7 @@
     height: 100%;
 }
 
-.card > .card_message > pre> p {
+.card > .card_message > p {
     font-size: 1.5rem;
     font-weight: bold;
     color: #fff;
@@ -59,10 +59,9 @@
     text-align: center;
     text-shadow: 2px 4px rgb(0 0 0 / 30%);
     position: absolute;
-    bottom: 70px;
-    right: 70px;
+    bottom: 30px;
+    right: 30px;
 }
-
 
 .card > h3 {
     position: absolute;
@@ -88,4 +87,28 @@
 
 .countdown {
     background-color: red;
+}
+
+@media screen and (max-width: 400px) {
+    .card > .card_message > p {
+        word-wrap: break-word !important;
+        font-size: 1rem;
+        font-weight: bold;
+        color: #fff;
+        font-family: cursive;
+        text-align: center;
+        text-shadow: 2px 4px rgb(0 0 0 / 30%);
+    }
+
+    .card > .card_message > h3 {
+        font-size: 10pt;
+        font-weight: bold;
+        color: #fff;
+        font-family: cursive;
+        text-align: center;
+        text-shadow: 2px 4px rgb(0 0 0 / 30%);
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+    }
 }

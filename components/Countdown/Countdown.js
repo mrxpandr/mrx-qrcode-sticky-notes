@@ -9,7 +9,7 @@ const Countdown = ({days, hours, minutes, seconds}) => {
           </div>
           <div className={styles.countdown__title__container}>
             <div className={styles.countdown__title}>Comming soon</div>
-            <div className={styles.countdown__caption}>{`Happy Valentine's Day`}</div>
+            <div className={styles.countdown__caption}>Content will be available on February 14, 2022 at 9:00AM</div>
             <div className={styles.countdown__name}>MRX</div>
           </div>
           <div className={styles.countdown__container}>
