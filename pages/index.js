@@ -25,7 +25,7 @@ export default function Home() {
             </Head>
             <div className={styles.home_container}>
                 <Countdown
-                    date={moment('2022-02-14').format()}
+                    date={moment('2022-02-14 09:00:00').format()}
                     renderer={renderer}
                 />
             </div>
