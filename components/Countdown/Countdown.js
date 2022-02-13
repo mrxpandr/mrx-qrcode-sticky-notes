@@ -8,7 +8,7 @@ const Countdown = ({days, hours, minutes, seconds}) => {
             <Image src="/images/countdown_bg.jpg" alt="countdown" layout="fill" objectFit="cover" />
           </div>
           <div className={styles.countdown__title__container}>
-            <div className={styles.countdown__title}>Comming soon</div>
+            <div className={styles.countdown__title}>Coming soon</div>
             <div className={styles.countdown__caption}>Content will be available on February 14, 2022 at 9:00AM</div>
             <div className={styles.countdown__name}>MRX</div>
           </div>
