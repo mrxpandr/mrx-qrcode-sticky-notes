@@ -39,7 +39,7 @@ const Card = () => {
             id: 6,
             name: '- Marvin Ebuenga',
             message: 'Kasali nga pala ako sa FRAT. FRATing single',
-            backgroundImage: 'https://png.pngtree.com/thumb_back/fh260/background/20201230/pngtree-valentines-day-dark-red-love-background-image_519171.jpg'
+            backgroundImage: 'https://media-api.xogrp.com/images/7f87c7c1-7fad-433b-b78f-7a633bc1c73a~cr_0.0.1619.1085?quality=50'
         },
         {
             id: 7,
@@ -51,7 +51,7 @@ const Card = () => {
             id: 8,
             name: '- Marvin Ebuenga',
             message: 'Masarap maging Tao at Mabuhay. \n Pero mas masarap maging Tayo Habambuhay!',
-            backgroundImage: 'https://png.pngtree.com/thumb_back/fh260/background/20201230/pngtree-valentines-day-dark-red-love-background-image_519171.jpg'
+            backgroundImage: 'https://media-api.xogrp.com/images/7f87c7c1-7fad-433b-b78f-7a633bc1c73a~cr_0.0.1619.1085?quality=50'
         },
         {
             id: 9,
@@ -63,7 +63,7 @@ const Card = () => {
             id: 10,
             name: '- Marvin Ebuenga',
             message: 'Kapag kasama kita, MAYAMAN ako \n Kasi, MAHIRAP  kapag wala ka ',
-            backgroundImage: 'https://png.pngtree.com/thumb_back/fh260/background/20201230/pngtree-valentines-day-dark-red-love-background-image_519171.jpg'
+            backgroundImage: 'https://media-api.xogrp.com/images/7f87c7c1-7fad-433b-b78f-7a633bc1c73a~cr_0.0.1619.1085?quality=50'
         },
     ])
     
