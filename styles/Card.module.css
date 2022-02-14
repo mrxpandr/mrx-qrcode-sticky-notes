@@ -89,7 +89,7 @@
     background-color: red;
 }
 
-/* @media screen and (max-width: 400px) {
+@media screen and (max-width: 400px) {
     .card > .card_message > p {
         word-wrap: break-word !important;
         font-size: 1rem;
@@ -111,4 +111,4 @@
         bottom: 30px;
         right: 30px;
     }
-} */
+}
