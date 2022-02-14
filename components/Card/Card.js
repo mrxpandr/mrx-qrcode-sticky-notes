@@ -47,24 +47,24 @@ const Card = () => {
             message: 'Paki Check nga yung RELO mo. \n Baka ORAS ng maging TAYO',
             backgroundImage: 'https://png.pngtree.com/thumb_back/fh260/background/20201230/pngtree-valentines-day-dark-red-love-background-image_519171.jpg'
         },
-        {
-            id: 8,
-            name: '- Marvin Ebuenga',
-            message: 'Masarap maging Tao at Mabuhay. \n Pero mas masarap maging Tayo Habambuhay!',
-            backgroundImage: 'https://png.pngtree.com/thumb_back/fh260/background/20201230/pngtree-valentines-day-dark-red-love-background-image_519171.jpg'
-        },
+        // {
+        //     id: 8,
+        //     name: '- Marvin Ebuenga',
+        //     message: 'Masarap maging Tao at Mabuhay. \n Pero mas masarap maging Tayo Habambuhay!',
+        //     backgroundImage: 'https://png.pngtree.com/thumb_back/fh260/background/20201230/pngtree-valentines-day-dark-red-love-background-image_519171.jpg'
+        // },
         {
             id: 9,
             name: '- Marvin Ebuenga',
             message: 'Handa akong takbuhin ang mundo... \n Basta ang finish line sa puso mo',
             backgroundImage: 'https://png.pngtree.com/thumb_back/fh260/background/20201230/pngtree-valentines-day-dark-red-love-background-image_519171.jpg'
         },
-        {
-            id: 10,
-            name: '- Marvin Ebuenga',
-            message: 'Kapag kasama kita, MAYAMAN ako \n Kasi, MAHIRAP  kapag wala ka ',
-            backgroundImage: 'https://png.pngtree.com/thumb_back/fh260/background/20201230/pngtree-valentines-day-dark-red-love-background-image_519171.jpg'
-        },
+        // {
+        //     id: 10,
+        //     name: '- Marvin Ebuenga',
+        //     message: 'Kapag kasama kita, MAYAMAN ako \n Kasi, MAHIRAP  kapag wala ka ',
+        //     backgroundImage: 'https://png.pngtree.com/thumb_back/fh260/background/20201230/pngtree-valentines-day-dark-red-love-background-image_519171.jpg'
+        // },
     ])
     
   return (
