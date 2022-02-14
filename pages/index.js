@@ -24,10 +24,11 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <div className={styles.home_container}>
-                <Countdown
+                {/* <Countdown
                     date={moment('2022-02-14 09:00:00').format()}
                     renderer={renderer}
-                />
+                /> */}
+                <Card />
             </div>
         </div>
     )
